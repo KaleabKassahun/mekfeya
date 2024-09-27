@@ -33,11 +33,11 @@ export const paths = {
       signIn: `${ROOTS.AUTH}/auth0/sign-in`,
     },
     supabase: {
-      signIn: `${ROOTS.AUTH}/supabase/sign-in`,
-      verify: `${ROOTS.AUTH}/supabase/verify`,
-      signUp: `${ROOTS.AUTH}/supabase/sign-up`,
-      updatePassword: `${ROOTS.AUTH}/supabase/update-password`,
-      resetPassword: `${ROOTS.AUTH}/supabase/reset-password`,
+      signIn: `${ROOTS.AUTH}/sign-in`,
+      verify: `${ROOTS.AUTH}/verify`,
+      signUp: `${ROOTS.AUTH}/sign-up`,
+      updatePassword: `${ROOTS.AUTH}/update-password`,
+      resetPassword: `${ROOTS.AUTH}/reset-password`,
     },
   },
   // DASHBOARD
